@@ -136,6 +136,16 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        activetyTextField.text = activety[0]
+        appetiteTextField.text = appetite[0]
+        VommitTextField.text = vommit[0]
+        diarrheaTextField.text = diarrhea[0]
+        fecesTextField.text = feces[0]
+        bodyWeightTextField.text = bodyweight[0]
+        albTextField.text = alb[0]
+        leachateTextLabel.text = leachate[0]
+        itchTextField.text = itch[0]
+        
         //Activety
         pickerActivety.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: pickerActivety.bounds.size.height)
         pickerActivety.tag = 0             // <<<<<<<<<<　追加
